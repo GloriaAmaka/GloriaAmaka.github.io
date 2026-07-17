@@ -94,6 +94,7 @@ section service starts
   background: white;
   padding: 20px;
   box-shadow: 0 3px 3px 2px gainsboro;
+  border-radius: 5px;
 }
 .emeka:hover {
   width: 100%;
