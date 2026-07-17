@@ -1,0 +1,351 @@
+.amadi {
+  background-color: green;
+}
+.maga {
+  height: 60px;
+}
+.aboy li a {
+  color: white;
+}
+.k {
+  color: black !important;
+}
+
+.jaz {
+  background-color: white;
+  padding: 2px 20px;
+  border-radius: 100px;
+  padding-right: 2px !important;
+}
+.jaz input {
+  border: 1px solid white;
+  outline-color: green !important;
+}
+.jaz button {
+  border-radius: 25px;
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+.jaz button:hover {
+  border-radius: 25px;
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+}
+/* 
+header section ends
+============================
+hero section begins
+ */
+.amuche img {
+  height: 550px;
+}
+.amuche a {
+  border: 1px solid green;
+  padding: 7px 25px;
+  background-color: green;
+  border-radius: 25px;
+  color: white;
+}
+.amuche a:hover {
+  border: 1px solid darkolivegreen;
+  padding: 7px 25px;
+  background-color: darkolivegreen;
+  border-radius: 25px;
+  color: white;
+}
+span {
+  width: 100%;
+  font-size: 25px;
+  color: green;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 25px 0;
+  float: left;
+  text-align: center;
+}
+.agozie {
+  padding: 3px 0;
+}
+.agozie a {
+  padding: 7px 20px;
+  background-color: green;
+  color: white;
+  border-radius: 25px;
+  border: 1px solid green;
+}
+.agozie a:hover {
+  padding: 7px 20px;
+  background-color: darkolivegreen;
+  color: white;
+  border-radius: 25px;
+  border: 1px solid darkolivegreen;
+}
+.aba {
+  margin-top: 80px;
+}
+/* section about ends
+==========================
+section service starts
+ */
+.emeka {
+  width: 100%;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 3px 3px 2px gainsboro;
+}
+.emeka:hover {
+  width: 100%;
+  background: green;
+  color: #fff;
+  padding: 20px;
+  cursor: alias;
+  box-shadow: 0 3px 3px 2px gainsboro;
+}
+.okeke .emeka img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
+.okeke .emeka h4 a {
+  text-decoration: none;
+  color: green;
+}
+.okeke .emeka:hover a {
+  color: white;
+}
+/* 
+section services ends
+=======================
+section product start
+  */
+.go {
+  width: 100%;
+  background-color: whitesmoke;
+}
+.go:hover {
+  width: 100%;
+  background-color: green;
+  color: white;
+}
+
+.go a {
+  border: 1px solid green;
+  border-radius: 25px;
+  background-color: green;
+  color: white;
+}
+.go a:hover {
+  border: 1px solid green;
+  border-radius: 25px;
+  background-color: white;
+  color: green;
+}
+.go:hover a {
+  border: 1px solid white;
+}
+.go img {
+  height: 200px;
+  clip-path: polygon(50% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%, 0% 0%);
+}
+.go h5 {
+  color: green;
+}
+.go:hover h5 {
+  color: white;
+}
+
+/* 
+  product section ends
+  ===========================
+  portfolio section starts
+   */
+.akuko{
+  width: 100%;
+  height: 200px;
+  background-image: url(../image/image\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* padding: 20px; */
+  position: relative;
+}
+.fubara {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0, 128, 115);
+  position: absolute;
+  bottom: 0;
+  opacity: 0.7;
+  display: none;
+}
+.fubara p{
+  width: 60%;
+  float: left;
+  padding-left: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.fubara a{
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 1px solid white;
+  padding: 2px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.akuko:hover .fubara{
+  display: block;
+}
+
+@keyframes agozie{
+  from {background-size: 450px;}
+  to {background-size: 500px;}
+}
+.akuko:hover{
+  width: 100%;
+  height: 200px;
+  background-image: url(../image/image\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* padding: 20px; */
+  position: relative;
+  animation: agozie 1s linear forwards;
+}
+/* 
+blog ends
+===========================
+section blog
+ */
+ .blogs{
+  width:100%;
+ }
+ .blogs img{
+height:250px;
+ }
+
+ /* contact section */
+ .maps .mapping{
+width:100%;
+height:auto;
+padding:20px;
+border-top:3px solid green;
+border-bottom:3px solid green;
+box-shadow: 0 3px 3px 2px gray;
+ }
+ .mapping h4{
+  color:green;
+ }
+.nnenna{
+  height:320px;
+}
+.josh{
+  width: 100%;
+  padding: 20px;
+  box-shadow:  0 3px 3px 2px gray;
+  border-bottom: 3px solid green;
+  border-top: 3px solid green;
+}
+.but{
+  text-align: center;
+}
+.but button{
+  margin-top: 5px;
+}
+.san h5{
+  color: green;
+}
+.san a{
+  border: 1px solid green;
+  padding: 7px 25px;
+  border-radius: 20px;
+  background-color: green;
+  color:white ;
+}
+.san a:hover{
+  border: 1px solid green;
+  padding: 7px 25px;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  color: green;
+}
+.but button{
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  padding: 7px 25px;
+  border-radius: 25px;
+}
+.but button:hover{
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+  padding: 7px 25px;
+  border-radius: 25px;
+}
+
+/* 
+section contact ends
+==========================
+footer section begins
+ */
+
+.footer ul a{
+  color: inherit;
+  text-decoration: none;
+}
+.footer ul a:hover{
+  color: green;
+  text-decoration: underline;
+}
+.footer ul li{
+  padding: 3px 0;
+}
+.footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+.footer h5{
+  color: green;
+}
+.footer1 h5{
+  color: green;
+}
+.minor_footer{
+  background-color: green;
+  height: 80px;
+}
+.footer ul li a i{
+  font-size: 12px;
+  color: green;
+}
+.footer1 button{
+  color: white;
+  background-color: green;
+  border: 1px solid green;
+}
+.footer1 button:hover{
+  color: green;
+  background-color: white;
+  border: 1px solid green;
+}
+.bread{
+  padding-top: 110px;
+  --bs-breadcrumb-divider:url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+}
+
+/* .navbar-toggler{
+  border: 3px solid white;
+}
+.navbar-toggler-icon{
+   border: 3px solid white;
+} */
+
+/* .dropdown-toggle{
+  background-color: red;
+  border-radius: 50px;
+} */
